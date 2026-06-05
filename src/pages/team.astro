@@ -13,7 +13,7 @@ const team = [
   {
     name: "Luke Schüette",
     role: "Director of Design and Construction",
-    bio: "Luke leads design and construction for the Rangeway network. A structural systems innovator who chairs ASTM's task group on Structural Engineered Bamboo and holds patents in solar charging structures, he has designed for industry leaders like BMW, Rivian, and Tesla. His solar canopies and lounge structures define the look of every Rangeway destination.",
+    bio: "Luke leads design and construction for the Rangeway network. A structural systems innovator, Luke chairs ASTM's task group on Structural Engineered Bamboo and holds patents in solar charging structures. He has designed for industry leaders like BMW, Rivian, and Tesla. His solar canopies and lounge structures define the look of every Rangeway destination.",
     photo: "/images/team/luke-schuette.jpg",
     linkedin: "https://www.linkedin.com/in/luke-d-sch%C3%BCette/"
   },
@@ -216,6 +216,15 @@ const team = [
   .team-card--placeholder .team-card__bio {
     color: var(--color-text-muted);
     font-style: italic;
+  }
+
+  @media (min-width: 901px) {
+    .team-card:last-child:nth-child(odd) {
+      grid-column: 1 / -1;
+      justify-self: center;
+      width: 100%;
+      max-width: calc(50% - var(--space-6) / 2);
+    }
   }
 
   @media (max-width: 900px) {
