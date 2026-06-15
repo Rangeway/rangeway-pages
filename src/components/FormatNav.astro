@@ -1,10 +1,11 @@
 ---
 interface Props {
-  current: "waystation" | "basecamp" | "summit";
+  current: "trailhead" | "waystation" | "basecamp" | "summit";
 }
 const { current } = Astro.props;
 
 const formats = [
+  { slug: "trailhead", name: "Trailhead", href: "/network/trailhead" },
   { slug: "waystation", name: "Waystation", href: "/network/waystation" },
   { slug: "basecamp", name: "Basecamp", href: "/network/basecamp" },
   { slug: "summit", name: "Summit", href: "/network/summit" }

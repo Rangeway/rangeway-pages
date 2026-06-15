@@ -26,7 +26,7 @@ Voice is the voice of a senior hotelier, not a startup founder. Plainspoken, dec
 
 Lexicon is fixed and load-bearing:
 
-- Formats: **Waystation**, **Basecamp**, **Summit**. Always capitalized as proper formats. (Trailhead was discontinued and spun off into the ChargeVia sub-brand; do not reference it as a Rangeway format.)
+- Formats: **Trailhead**, **Waystation**, **Basecamp**. Always capitalized as proper formats.
 - Loyalty / experience: **Summit** (standalone, never "Rangeway Summit").
 - Roles: **Trailkeepers**, **Lookouts**.
 - Spaces: **driver's lounge** (always lowercase).

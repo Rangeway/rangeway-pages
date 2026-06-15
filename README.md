@@ -38,6 +38,7 @@ All user-facing copy must follow the Rangeway voice:
 
 - `/` home
 - `/network` network overview
+- `/network/trailhead`
 - `/network/waystation`
 - `/network/basecamp`
 - `/summit`

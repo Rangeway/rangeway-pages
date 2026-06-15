@@ -351,7 +351,7 @@ The pill caption that overlays photography (e.g. "Driver's Lounge · Basecamp" o
 - **Don't** use earthy-green-and-warm-brown REI palettes. Rangeway lives outdoors but is hospitality, not gear. Sage stays muted; brown is replaced by warm cream.
 - **Don't** use champagne-on-marble luxury cues (gold serif Didone, taupe-on-ivory spacing, all-caps small-tracked labels framed in thin gold rules). That's the ultra-luxe anti-reference; Rangeway is warm and present, not aloof.
 - **Don't** use em dashes or `--` in any rendered copy. Use commas, colons, semicolons, periods, or parentheses.
-- **Don't** start sentences with "And." Don't use sentence fragments. Don't use hashtags. Don't use statistics. Don't use "stations" or "units" or "rooms" or "cabins". Formats are **Waystation**, **Basecamp**, **Summit** (Trailhead was discontinued and spun off into the ChargeVia sub-brand).
+- **Don't** start sentences with "And." Don't use sentence fragments. Don't use hashtags. Don't use statistics. Don't use "stations" or "units" or "rooms" or "cabins". Formats are **Trailhead**, **Waystation**, **Basecamp**.
 - **Don't** add CSS layout-property animations (`width`, `height`, `padding`). Animate `transform` and `opacity`. Use `--ease-out: cubic-bezier(0.22, 1, 0.36, 1)` or the standard ease, never bounce or elastic.
 - **Don't** stack two sections with the same background. Adobe Cream → Drift Cream gradient page wash → cream section → cream-dim section is fine; cream → cream → cream reads as undifferentiated. Vary the surface.
 - **Don't** put a shadow on a card inside an atmospheric (radial-wash) section. The atmosphere is the depth signal; competing shadows muddy it.
