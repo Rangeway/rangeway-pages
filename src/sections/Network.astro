@@ -77,8 +77,10 @@ const formats = [
     gap: var(--space-6);
   }
 
-  /* Third format (Summit) sits centered on its own row below the other two. */
-  .network__grid > :last-child {
+  /* Third format (Summit) sits centered on its own row below the other two.
+     :global() is required because the card's root element is a child component
+     and carries its own scope id, not this section's. */
+  .network__grid > :global(:last-child) {
     grid-column: 1 / -1;
     justify-self: center;
     width: calc((100% - var(--space-6)) / 2);
@@ -96,7 +98,7 @@ const formats = [
       gap: var(--space-5);
     }
 
-    .network__grid > :last-child {
+    .network__grid > :global(:last-child) {
       width: 100%;
     }
   }
